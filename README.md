@@ -26,9 +26,9 @@ Good job !
 
 
 ## Layout of your website
-You will have to create a basic responsive website following the layout below (do not try to be pixel perfect, this image is a guide)
+You will have to create a basic responsive website following the layout below (do not try to be pixel perfect, this image is a guide). 
 
-![final screen to add ](desktop_layout.jpg)final screen to add 
+![Layout to reproduce](desktop_layout.jpg) (The screenshot has been made at 1200px viewport width.)
 
 ### Navbar
 - Try to reproduce the navbar. Start to create a `<nav>` tag and add the background color #f76c6c
@@ -56,6 +56,11 @@ You will have to create a basic responsive website following the layout below (d
 > Reminder : [CSS Grid basics in 5 minutes](https://www.freecodecamp.org/news/learn-css-grid-in-5-minutes-f582e87b1228)
 
 ## Make it responsive
-- Add media queries and CSS functions to obtain the responsive layout below at 360px (standard smartphone size). 
-=> [ADD MORE STEPS DETAIL] navbar, clamp on title, auto-fit on grid...
-> The result will not be perfect at each viewport size, for this time but the goal is to discover how play with a responsive layout.
+You will add media queries and use CSS functions to obtain the responsive layout below at 360px (standard smartphone size). 
+> You can use a breackpoint around 500px in your media queries, but focus on display at 360px for this workshop. Do not try for now to be perfectly responsive for each screen size.
+
+![Layout to reproduce](mobile_layout.jpg) (The screenshot has been made at 1200px viewport width.)
+
+- Make the navbar responsive by changing flex-direction for the menu items element.
+- Use clamp to make your `<h1>` readable for each size.
+- Modify the Grid template to adapt the products vertically, but still keep a largest "Product 1".
