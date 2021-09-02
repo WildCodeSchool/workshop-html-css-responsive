@@ -31,15 +31,15 @@ You will have to create a basic responsive website following the layout below (d
 ![Layout to reproduce](desktop_layout.jpg) (The screenshot has been made at 1200px viewport width.)
 
 > Hint : Browsers have default size for each HTML elements (margin, font-size, etc.). It is useful but sometimes you will prefer to reset some default behaviour. In this workshop, it could be interesting to remove margion on `<body>`. Furthermore, use `box-sizing: border-box` on each element will help you to deal element sizing (more info about [box-sizing](https://developer.mozilla.org/fr/docs/Web/CSS/box-sizing)).
-  ```css
-  * {
+>```css
+* {
     box-sizing: border-box;
   }
 
   body {
     margin:0;
   }
-  ``` 
+``` 
 
 
 ### Navbar
