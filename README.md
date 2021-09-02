@@ -71,7 +71,8 @@ You will have to create a basic responsive website following the layout below (d
 You will add media queries and use CSS functions to obtain the responsive layout below at 360px (standard smartphone size). 
 > You can use a breackpoint around 500px in your media queries, but focus on display at 360px for this workshop. Do not try for now to be perfectly responsive for each screen size.
 
-![Layout to reproduce](mobile_layout.jpg) (The screenshot has been made at 1200px viewport width.)
+![Layout to reproduce](mobile_layout.jpg) 
+(The screenshot has been made at 360px viewport width.)
 
 - Make the navbar responsive by changing flex-direction for the menu items element.
 - Use clamp to make your `<h1>` readable for each size.
