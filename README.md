@@ -2,7 +2,7 @@
 
 ## Initialisation
 - In a new folder, create a *index.html* file.
-- Open the file with your favorite IDE and add the HTML5 tags (html, head, body).
+- Open the file with your favorite IDE and add the HTML5 basic tags (DOCTYPE, html, head, body).
 - Create a *style.css* file
 - In the `<head>`, first add some mandatory tags as `<meta>` or `<title>`
   ```html
@@ -26,11 +26,11 @@ Good job !
 
 
 ## Layout of your website
-You will have to create a basic responsive website following the layout below (do not try to be pixel perfect, this image is a guide). 
+You will have to create a basic responsive website (mobile first) following the layout below (**do not try** to be pixel perfect, this image is just a guide). 
 
-![Layout to reproduce](desktop_layout.jpg) 
+![Layout to reproduce](mobile_layout.jpg) 
 
-*(The screenshot has been made at 1200px viewport width.)*
+*(The screenshot has been made at 360px viewport width, it is a standard smartphone size).*
 
 > Hint : Browsers have default size for each HTML elements (margin, font-size, etc.). It is useful but sometimes you will prefer to reset some default behaviour. In this workshop, it could be interesting to remove margion on `<body>`. Furthermore, use `box-sizing: border-box` on each element will help you to deal element sizing (more info about [box-sizing](https://developer.mozilla.org/fr/docs/Web/CSS/box-sizing)).
 >
@@ -43,7 +43,6 @@ You will have to create a basic responsive website following the layout below (d
 >      margin:0;
 >  }
 >```
-
 
 ### Navbar
 - Try to reproduce the navbar. Start to create a `<nav>` tag and add the background color #f76c6c
@@ -61,24 +60,26 @@ You will have to create a basic responsive website following the layout below (d
 > Hint: [Manage background size](https://developer.mozilla.org/fr/docs/Web/CSS/background-size)
 
 ### "About us" Section
-- Add a `<section>` and a `<h2>` according to the template
+- Good practice is to wrap sections in a `<main>` tag.
+- Add a first `<section>` and a `<h2>` according to the template
 - Add some fake text in a paragraph. Change `font-size` (20px), `line-height` (150%) and `font-family` (Verdana) to improve readability.
 - Adjust margin / padding if necessary
 
 ### Products Section
+- Add a new section. 
 - Using CSS grid, create a 4 columns / 2 rows layout.
 - Add 5 products according to the template (first one will take 4 cells in the grid, others only one).
 
 > Reminder : [CSS Grid basics in 5 minutes](https://www.freecodecamp.org/news/learn-css-grid-in-5-minutes-f582e87b1228)
 
 ## Make it responsive
-Add media queries and use CSS functions to obtain the responsive layout below at 360px (standard smartphone size). 
-> You can use a breakpoint around 500px in your media queries, but focus on display at 360px for this workshop. Do not try for now to be perfectly responsive for each screen size.
+Add media queries and use CSS functions to obtain the responsive layout below at 1200px. 
+> You can use a breakpoint around 500px in your media queries, but focus on display at 360px and 1200px for this workshop. Do not try for now to be perfectly responsive for each screen size.
 
-![Layout to reproduce](mobile_layout.jpg) 
+![Layout to reproduce](desktop_layout.jpg) 
 
-*(The screenshot has been made at 360px viewport width.)*
+*(The screenshot has been made at 1200px viewport width.)*
 
 - Make the navbar responsive by changing `flex-direction` for the menu items.
 - Use `clamp()` function to make your `<h1>` readable for each size.
-- Modify the Grid template to adapt the products vertically, but still keep a largest "Product 1".
+- Modify the Grid template to adapt the products horizontally, but still keep a largest "Product 1".
