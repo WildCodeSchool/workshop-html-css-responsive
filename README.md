@@ -3,7 +3,7 @@
 ## Initialisation
 
 This workshop is the second part of the [HTML Basics workshop](https://wildcodeschool.github.io/html-basics-workshop/).
-So you can start from your previous work or clone [this Git repository](https://github.com/WildCodeSchool/html-css-workshop-basics) if you are not sure of what you did.
+So you can start from your previous work or download [this version](https://github.com/WildCodeSchool/html-css-workshop-basics/archive/refs/heads/master.zip) if you are not sure of what you did.
 
 > The objectives of this workshop: 
 > - improve the HTML integration with Flex and Grid properties.
