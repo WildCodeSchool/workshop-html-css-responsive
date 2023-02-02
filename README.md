@@ -7,10 +7,10 @@ So you can start from your previous work or download [this version](https://gith
 
 > The objectives of this workshop: 
 > - improve the HTML integration with Flex and Grid properties.
-> - make the whole thing responsive and mobile first.
+> - make the whole thing responsive.
 
 ## Layout of your website
-You will have to create a basic responsive website (mobile first) following the layout below (**do not try** to be pixel perfect, this image is just a guide). 
+You will have to create a basic responsive website following the layout below (**do not try** to be pixel perfect, this image is just a guide). 
 
 ![Layout to reproduce](mobile_layout.png) 
 
