@@ -1,17 +1,21 @@
 # Responsive design workshop 
 
+**The objectives of this workshop**:  
+• improve the HTML integration with Flex and Grid properties.  
+• make the whole thing responsive.
+{: .alert-info}
+
+
 ## Initialisation
 
 This workshop is the second part of the [HTML Basics workshop](https://wildcodeschool.github.io/html-basics-workshop/).
-So you can start from your previous work or download [this version](https://github.com/WildCodeSchool/html-css-workshop-basics/archive/refs/heads/master.zip) if you are not sure of what you did.
+So you can start from your previous work or [download this version](https://github.com/WildCodeSchool/html-css-workshop-basics/archive/refs/heads/master.zip) if you are not sure of what you did.
 
-> The objectives of this workshop: 
-> - improve the HTML integration with Flex and Grid properties.
-> - make the whole thing responsive.
 
 ## Layout of your website
 You will have to create a basic responsive website following the layout below (**do not try** to be pixel perfect, this image is just a guide). 
 
+<a href="./mobile_layout.png" target="_blank">Open in new tab <i class="bi bi-box-arrow-up-right"></i></a>  
 ![Layout to reproduce](mobile_layout.png) 
 
 *(The screenshot has been made at 360px viewport width, it is a standard smartphone size).*
@@ -21,10 +25,10 @@ You will have to create a basic responsive website following the layout below (*
 
 - Now for this mobile version, the HTML structure of the navigation bar has not changed but its presentation is different. Reproduce this using **flexbox**.
 
-> Reminder:  
-> [Video - Flexbox in 100s](https://www.youtube.com/watch?v=K74l26pE4YA)  
-> [Flexbox basics Cheatsheet](https://jonitrythall.com/content/images/flexboxsheet.pdf)
-
+Reminder:  
+[Video - Flexbox in 100s](https://www.youtube.com/watch?v=K74l26pE4YA)  
+[Flexbox basics Cheatsheet](https://jonitrythall.com/content/images/flexboxsheet.pdf)
+{: .alert-info}
 
 ### Header
 
@@ -33,7 +37,7 @@ You will have to create a basic responsive website following the layout below (*
 ### Featured posts section
 
 Unlike the `About Us` section which doesn't need to be modified here, the `Featured posts` section requires you to add a css class to it.
-- Add the `featured-posts` class to this section.
+- Add the `featured-posts` CSS class to this section.
 - Add a fifth article in the HTML structure.
 - Using CSS grid, create a 2 columns layout. According to the template, the first article will take 2 cells in the grid, others only one.
 
@@ -44,11 +48,12 @@ Unlike the `About Us` section which doesn't need to be modified here, the `Featu
 ## Make it responsive
 
 Add media queries and use CSS functions to obtain the responsive layout below at 1200px. 
-> You can use a breakpoint at 768px in your media queries (which is a landscape breakpoint of some tablets), but focus on display at 360px and 1200px for this workshop.
+> You can use a breakpoint at 768px in your media queries (which is a landscape breakpoint of some tablets).
 
+<a href="./desktop_layout.png" target="_blank">Open in new tab <i class="bi bi-box-arrow-up-right"></i></a> 
 ![Layout to reproduce](desktop_layout.png) 
 
-*(The screenshot has been made at 1200px viewport width.)*
+*(The screenshot has been made at 970px viewport width.)*
 
 - Make the navbar responsive.
 - Use `clamp()` function to make your `<h1>` readable for each size.
