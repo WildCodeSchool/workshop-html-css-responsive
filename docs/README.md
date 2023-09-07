@@ -8,7 +8,7 @@
 
 ## Initialisation
 
-This workshop is the second part of the [HTML Basics workshop](https://wildcodeschool.github.io/workshop-html-basics/).
+This workshop is the second part of the [HTML Basics workshop](https://wildcodeschool.github.io/workshop-html-css-basics/).
 So you can start from your previous work or [download this version](https://github.com/WildCodeSchool/workshop-html-css-responsive/archive/refs/heads/master.zip) if you are not sure of what you did.
 
 
